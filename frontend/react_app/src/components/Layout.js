@@ -12,7 +12,7 @@ function Layout(props) {
             <div>
                 {props.children}
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </React.Fragment>
     )
 }
