@@ -48,8 +48,8 @@ else:
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'predictiondb',
             'USER': 'postgres',
-            'PASSWORD': 'postgres',
-            'HOST': '127.0.0.1',
+            'PASSWORD': 'fintech123456789',
+            'HOST': 'fintech.coxeytfzdoap.eu-west-2.rds.amazonaws.com',
             'PORT': '5432',
         }
     }
