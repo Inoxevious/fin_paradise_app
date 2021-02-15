@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
-    'oauth2_provider',
+    # 'oauth2_provider',
     'corsheaders',
 
     # apps
@@ -142,7 +142,7 @@ STATIC_URL = '/static/'
 
 REST_FRAMEWORK = {
       'DEFAULT_AUTHENTICATION_CLASSES': (
-       'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
+    #    'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
        'rest_framework.authentication.BasicAuthentication',
        'rest_framework.authentication.TokenAuthentication',
         # 'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
