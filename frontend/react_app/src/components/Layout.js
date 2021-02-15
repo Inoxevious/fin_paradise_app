@@ -1,6 +1,6 @@
 import React from 'react';
 import TopBar from "./TopBar"
-import Footer from "./Footer"
+// import Footer from "./Footer"
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 
@@ -12,7 +12,7 @@ function Layout(props) {
             <div>
                 {props.children}
             </div>
-            <Footer />
+ 
         </React.Fragment>
     )
 }
