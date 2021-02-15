@@ -7,8 +7,8 @@ function Footer() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
             {'Copyright © '}
-            <Link color="inherit" href="#">
-                Scoring App
+            <Link color="inherit" href="https://material-ui.com/">
+                
         </Link>{' '}
             {new Date().getFullYear()}
             {'.'}
